@@ -1000,3 +1000,6 @@ app.get("/AdminBlog", async (req, res) => {
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
+app.get('/', (req, res) => {
+  res.send('Hello, welcome to my server!');
+});
