@@ -28,7 +28,7 @@ const generateOTP = () => {
   return crypto.randomInt(100000, 999999).toString();
 };
 
-const port = process.env.PORT || 3010;
+const port = "https://server-self-nine-25.vercel.app";
 
 app.listen(port, function () {
   console.log(`Server is running on port ${port}`);
